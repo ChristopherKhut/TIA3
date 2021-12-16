@@ -13,7 +13,7 @@ case choice
 when "add"
     puts "What book would you like to add to your list?"
     title = gets.chomp
-if book[title:to_sym] = .nil?
+if books[title.to_sym].nil?
     puts "What rating would you like to give this book? (Between 1 - 10)"
     rating = gets.chomp
     books[title.to_sym] = rating.to_i
@@ -23,3 +23,5 @@ else puts "That book already in your list!"
 end
 
 puts books
+
+end
