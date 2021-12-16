@@ -7,3 +7,5 @@ books = {
 }
 
 puts "What would you like to do? Options: (Add) (update) (delete) (list)"
+
+choice = gets.chomp
