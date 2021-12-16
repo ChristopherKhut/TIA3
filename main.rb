@@ -23,7 +23,7 @@ else puts "That book already in your list!"
 end
 
 when "update"
-    
+    puts "What book rating would you like to change?"
 
 puts books
 
