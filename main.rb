@@ -31,7 +31,10 @@ when "update"
         rating = gets.chomp
     books[title.to_sym] = rating.to_i
     puts "Your rating for #{title} has been updated to #{rating}!"
-    end
+end
+
+when "delete"
+    
 
 puts books
 
