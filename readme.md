@@ -1,6 +1,10 @@
-# CRUD Notepad
+# CRUD Book-Collection
 
 # Problem
-- Sick of notepad that doesn't save 
-- Learning curve to be able to create my own notepad.
- 
+- Sick of not able to keep track of books that I Have read. 
+- Learning curve to be able to create a terminal app in ruby language.
+- To create the data and save it. (Author, Book Title, Date)
+- To be able to Read the data.
+- To update the data after reading.
+- To delete the data.
+
