@@ -18,7 +18,7 @@ if book[title:to_sym] = .nil?
     rating = gets.chomp
     books[title.to_sym] = rating.to_i
     puts "#{title} has been added to your list with a rating of #{rating}"
-else puts "That book already in your list"
+else puts "That book already in your list!"
 
 end
 
