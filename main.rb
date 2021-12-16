@@ -34,7 +34,7 @@ when "update"
 end
 
 when "delete"
-    
+    puts "What title would you like remove?"
 
 puts books
 
