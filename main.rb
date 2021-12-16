@@ -1,7 +1,7 @@
 books = {
-    A_Clash_Of_Kings: 4,
-    Harry_Potter_and_the_sorcerers_Stone:5,
-    The_lord_of_Rings:7,
+    A_clash_of_kings: 4,
+    Harry_potter_and_the_sorcerers_stone:5,
+    The_lord_of_rings:7,
 }
 
 puts "What would you like to do? Options: (add) (update) (delete) (list)"
@@ -21,6 +21,9 @@ if books[title.to_sym].nil?
 else puts "That book already in your list!"
 
 end
+
+when "update"
+    
 
 puts books
 
