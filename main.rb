@@ -34,7 +34,13 @@ when "update"
 end
 
 when "delete"
-    puts "What title would you like remove?"
+    puts "What title would you like removed?"
+    title = gets.chomp.to_sym
+    if books[title.to_sym] .nil?
+        puts "THAT TITLE DOES NOT EXIST!"
+    else
+        
+    end
 
 puts books
 
