@@ -6,6 +6,14 @@ books = {
 
 }
 
-puts "What would you like to do? Options: (Add) (update) (delete) (list)"
+puts "What would you like to do? Options: (add) (update) (delete) (list)"
 
-choice = gets.chomp
+choice = gets.chomp 
+
+case choice
+
+when "add"
+    puts "What book would you like to add to your list?"
+    title = gets.chomp
+    puts "What rating would you like to give this book? (Between 1 - 10)"
+    books[title.to_sym]
