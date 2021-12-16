@@ -24,6 +24,7 @@ end
 
 when "update"
     puts "What book rating would you like to change?"
+    title = gets.chomp
 
 puts books
 
