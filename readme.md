@@ -8,9 +8,9 @@
 - To delete the data.
 
 - Features include:
-1. Use of Variable 
-2. Loop & Conditional control structure.
-3. error handling.
+1. Use of Variable - To be able to demonstrate on how to use a variable properly without creating errors in the application, assigning variable correctly and using proper syntax and scope. able to use the elements and understand the concept without running into issues and errors.
+2. Loop & Conditional control structure. - Able to show and understand loops and conditional control structure without running into an error.
+3. error handling - If errors does pop up instead of showing error in the terminal and making the application not work, instead shows an error message.
 
 What is the purpose of the application?
 - The application is used for to keep track of Books that the user has been reading.
@@ -19,7 +19,7 @@ What is the purpose of the application?
 - To show the data that they have stored.
 
 
-#   installation
+#   Installation
 - Simply copy it from github and save into your computer.
 - And in your terminal, navigate to the directory.
 - type ruby main.rb.
