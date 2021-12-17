@@ -46,6 +46,10 @@ when "list"
         puts "#{book}: #{rating}"
 end
 
+else 
+    puts "ERROR! THAT DOES NOT EXIST!"
+end
+
 puts books
 
 end
