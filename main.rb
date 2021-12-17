@@ -39,7 +39,12 @@ when "delete"
     if books[title.to_sym] .nil?
         puts "THAT TITLE DOES NOT EXIST!"
     else books.delete(title)    
-    end
+end
+
+when "list"
+    books.each do |book, rating|
+        puts "#{book}: #{rating}"
+end
 
 puts books
 
