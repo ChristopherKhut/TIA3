@@ -29,3 +29,4 @@ What is the purpose of the application?
 
 # Diagram & Plan
 
+![alt text](Control_Flow_Diagram.png "control_flow")
