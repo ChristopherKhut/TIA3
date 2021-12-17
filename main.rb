@@ -38,8 +38,7 @@ when "delete"
     title = gets.chomp.to_sym
     if books[title.to_sym] .nil?
         puts "THAT TITLE DOES NOT EXIST!"
-    else books.delete(title)
-    end    
+    else books.delete(title)    
     end
 
 puts books
