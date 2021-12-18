@@ -30,3 +30,11 @@ What is the purpose of the application?
 # Diagram & Plan
 
 ![alt text](Control_Flow_Diagram.png "control_flow")
+
+# Trello Screenshot Plan
+
+![alt text](trello.png "control_flow")
+
+# GITHUB 
+
+https://github.com/ChristopherKhut/TIA3
